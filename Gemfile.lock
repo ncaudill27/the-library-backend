@@ -88,6 +88,9 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.9)
       concurrent-ruby (~> 1.0)
+    json (2.5.1)
+    json_web_token (0.3.5)
+      json (~> 2.1)
     listen (3.4.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -174,6 +177,7 @@ DEPENDENCIES
   faker!
   fast_jsonapi
   foreman
+  json_web_token
   listen (~> 3.3)
   pg (~> 1.1)
   puma (~> 5.0)
