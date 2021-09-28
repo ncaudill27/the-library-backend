@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "The Library Backend API",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "echo \"Link to rails commands\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncaudill27/the-library-backend.git"
+  },
+  "author": "Nelson Caudill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncaudill27/the-library-backend/issues"
+  },
+  "homepage": "https://github.com/ncaudill27/the-library-backend#readme"
+}
