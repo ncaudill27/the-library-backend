@@ -17,7 +17,6 @@
 
     # POST /users
     def create
-      # byebug
       @user = User.new(user_params(:email, :password, :password_confirmation))
       if @user.save
         payload = {user_id: @user.id}
